@@ -31,9 +31,7 @@ class ViewController: UIViewController {
         diceImageView1.image = UIImage(named: diceArray[randDiceIndex1])
         diceImageView2.image = UIImage(named: diceArray[randDiceIndex2])
     }
-//    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-//        nw()
-//    }
+//    func motionBegan can be used
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         nw()
